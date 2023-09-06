@@ -30,7 +30,8 @@
 }
 
 #serviceImage{
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    width: fit-content;
 }
 .servicesContainer{
     width: 450px;
@@ -39,12 +40,12 @@
     background-color: #76A4F3;
     opacity: 57%;
     font-family: monospace;
-    color:white;
+    color: white;
     border-radius: 12px;
-    font-size: 24px;
+    font-size: 40px;
     flex: display;
     margin: 5% 8%;
-    padding: 50px 0;
+    padding: 25px 0;
 }
 
 #divisionHeadings{
