@@ -8,18 +8,94 @@
     padding-left: 40px;
 }
 .heading_center{
-    font-size: 24px;    
+    font-size: 36px;    
 }
 #heading_logo_center{
-    margin-top: 130px;
-    margin-bottom: 170px;
+    margin-top: 120px;
+    margin-bottom: 150px;
 }
 
 #tagline{
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 500px;
     padding-bottom: 30px;
 }
 
 #services{
-    margin-top: 75px;
+    padding-top: 24px;
+}
+
+.alignment{
+    display: flex;
+}
+
+.servicesContainer{
+    width: 450px;
+    text-align:center;
+    background-color: #76A4F3;
+    opacity: 57%;
+    font-family: monospace;
+    color:white;
+    padding: 150px 0;
+    border-radius: 12px;
+    font-size: 24px;
+    flex: display;
+    margin: 5% 8%;
+}
+
+#divisionHeadings{
+    text-align: center;
+    font-size: 36px;
+}
+
+#about{
+    background-image: url(about.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 10px;
+    margin: 30px 0;
+}
+
+.aboutContainer{
+    width: 80%;
+    text-align:justify;
+    background-color: #76A4F3;
+    opacity: 65%;
+    color: black;
+    padding: 50px 25px;
+    font-size: 24px;
+    border-radius: 25px;
+    flex: display;
+    margin: 5% 8%;
+}
+
+.footer{
+    padding: 20px 5%;
+    background-color: #F3F7FF;
+}
+
+.footerFlexItems{
+    display: flex;
+}
+
+#footerName{
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+color: #03276D;
+margin-right: 20%;
+}
+
+#footerElements{
+font-weight:bold;
+font-size: 16px;
+margin: 0 40px;
+line-height: 60px;
+text-decoration: none;
+font-family: monospace;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
 }

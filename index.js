@@ -9,8 +9,6 @@ for legal compliance, taxation matters, company formations, regulatory filings, 
 we strive to be a trusted partner for our clients, ensuring their legal, financial, and regulatory needs are met
 efficiently and effectively.`
 
-let aboutEle = document.getElementById('about')
+let aboutEle = document.getElementById('aboutPara')
 
-function aboutUs(){
     aboutEle.textContent = about
-}
