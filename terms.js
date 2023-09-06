@@ -40,5 +40,7 @@
     `
     
     let terms = document.getElementById('termsContent')
-    
+
     terms.innerHTML = content
+
+

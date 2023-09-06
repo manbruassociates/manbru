@@ -11,5 +11,8 @@ efficiently and effectively.`
 
 let aboutEle = document.getElementById('aboutPara')
 
-    aboutEle.textContent = about
+
+
+aboutEle.textContent = about
+
 
