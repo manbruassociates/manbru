@@ -84,21 +84,23 @@
 }
 
 #footerName{
-font-weight: 700;
-font-size: 18px;
-line-height: 24px;
-color: #03276D;
-margin-right: 20%;
-}
+    font-weight: 700;
+    font-size: 18px;    
+    line-height: 24px;
+    color: #03276D;
+    margin-right:20%;
+    }
 
-#footerElements{
-font-weight:bold;
-font-size: 16px;
-margin: 0 40px;
-line-height: 60px;
-text-decoration: none;
-font-family: monospace;
-}
+
+    #footerElements{
+        font-weight:bold;
+        font-size: 16px;
+        margin: 0 40px;
+        line-height: 60px;
+        text-decoration: none;
+        font-family: monospace;
+        }
+
 
 a:link{
     text-decoration: none;
@@ -123,7 +125,6 @@ a:visited{
         left: 25%;
         padding: 20px;
         background-color: #fff;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         border-radius: 5px;
         text-align: center;
         visibility: hidden;
@@ -131,19 +132,19 @@ a:visited{
 
     .popup-open{
         width: 80%;
-        max-width: 600px;
+        max-width: 700px;
         margin: 20px auto;
         position:absolute;
-        top: 50%;
-        left: 25%;
+        top: 70%;
+        left:20.5%;
         padding: 20px;
         background-color: #fff;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         border-radius: 5px;
         text-align: center;
         visibility: visible;
-        box-shadow: 2px 2px 30px black;
+        box-shadow: 2px 2px 50px black;
     } 
+
 
     #closePopup {
         background-color: #333;
@@ -159,3 +160,39 @@ a:visited{
         background-color: #555;
     }
     
+
+    @media screen and (width < 1000px){
+        #footerName{
+            font-weight: 700;
+            font-size: 18px;    
+            line-height: 24px;
+            color: #03276D;
+            margin-right:12%;
+            }
+
+            #footerElements{
+                font-weight:bold;
+                font-size: 16px;
+                margin: 0 20px;
+                line-height: 60px;
+                text-decoration: none;
+                font-family: monospace;
+                }
+
+                .popup-open{
+                    width: 80%;
+                    max-width: 700px;
+                    margin: 20px auto;
+                    position:absolute;
+                    top: 30%;
+                    left:15%;
+                    padding: 20px;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    text-align: center;
+                    visibility: visible;
+                    box-shadow: 2px 2px 50px black;
+                } 
+            
+            
+      } 
