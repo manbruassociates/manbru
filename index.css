@@ -27,6 +27,7 @@
 
 .alignment{
     display: flex;
+    justify-content: space-evenly;
 }
 
 #serviceImage{
@@ -44,7 +45,6 @@
     border-radius: 12px;
     font-size: 40px;
     flex: display;
-    margin: 5% 8%;
     padding: 25px 0;
 }
 
