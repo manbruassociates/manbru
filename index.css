@@ -2,10 +2,25 @@
     background-image: url("home_screen_bg.svg");
     margin-top: -15px;
 }
+
+#head_and_nav{
+    display: flex;
+    justify-content: left;
+}
+
+nav{
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+#nav_items{
+    padding: 0  10px;
+}
+
 .heading_side{
     font-size: 18px;
-    padding-top: 40px;
     padding-left: 40px;
+    padding-top: 20px;
 }
 .heading_center{
     font-size: 36px;    
