@@ -50,9 +50,9 @@ const content = `These terms and conditions ("Agreement") govern your use of <b>
     <br>
     `
     
-    let terms = document.getElementById('termsContent')
+let terms = document.getElementById('termsContent')
 
-    terms.innerHTML = content
+terms.innerHTML = content
 
 
 
