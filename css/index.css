@@ -1,6 +1,6 @@
 #header_portion{
-    background-image: url("images/home_screen_bg.svg");
-    margin-top: -15px;
+    background-image: linear-gradient(#CDF0FF, white);
+    margin: -8px -8px;
 }
 
 #head_and_nav{
@@ -14,13 +14,25 @@ nav{
 }
 
 #nav_items{
-    padding: 0  10px;
+    font-family: "Poppins", sans-serif; 
+    padding: 0px 10px;
+font-weight: bold;
+}
+
+#nav_items:hover{
+    font-family: "Poppins", sans-serif; 
+    font-weight: bold;
+    padding: 4px 6px;
+    font-size: 25px;
+    border-radius: 5px;
 }
 
 .heading_side{
     font-size: 18px;
-    padding-left: 40px;
+    padding-left: 48px;
     padding-top: 20px;
+    font-weight: bolder;   
+    font-family: "Poppins", sans-serif; 
 }
 .heading_center{
     font-size: 36px;    
@@ -50,7 +62,7 @@ nav{
     width: fit-content;
 }
 .servicesContainer{
-    width: 450px;
+    width: 380px;
     text-align:center;
     align-items: center;
     background-color: #76A4F3;
@@ -63,9 +75,27 @@ nav{
     padding: 25px 0;
 }
 
+.servicesContainer:hover{
+    width: 420px;
+    text-align:center;
+    align-items: center;
+    background-color: #b8f8d4;
+    opacity: 57%;
+    font-family: monospace;
+    color: black;
+    border-radius: 12px;
+    font-size: 40px;
+    flex: display;
+    padding: 25px 0;
+    box-shadow: 10px 2px #000000aa;
+}
+
 #divisionHeadings{
     text-align: center;
     font-size: 36px;
+    margin-bottom: 80px;
+    font-family: "Poppins", sans-serif; 
+    font-weight: bold;
 }
 
 #about{
@@ -79,19 +109,21 @@ nav{
 .aboutContainer{
     width: 80%;
     text-align:justify;
-    background-color: #76A4F3;
-    opacity: 65%;
+    background-color: #76A4F381;
     color: black;
     padding: 50px 25px;
     font-size: 24px;
     border-radius: 25px;
     flex: display;
     margin: 5% 8%;
+    font-family: "Poppins", sans-serif; 
 }
 
 .footer{
     padding: 20px 5%;
-    background-color: #F3F7FF;
+    background-color: #b8f8d47a;
+    background-image: linear-gradient(white,#CDF0FF);
+    margin: -8px -8px;
 }
 
 .footerFlexItems{
@@ -113,7 +145,6 @@ nav{
         margin: 0 40px;
         line-height: 60px;
         text-decoration: none;
-        font-family: monospace;
         }
 
 

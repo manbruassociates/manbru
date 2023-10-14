@@ -1,7 +1,15 @@
 #background{
-    background-image: linear-gradient(#b8f8d47a, white);
+    background-image: linear-gradient(#b8f8d47a, #ffffff);
     height: 200px;
     margin: -8px;
+}
+
+.heading_side{
+    font-size: 18px;
+    padding-left: 48px;
+    padding-top: 20px;
+    font-weight: bolder;   
+    font-family: "Poppins", sans-serif; 
 }
 
 #head_and_nav{
@@ -15,14 +23,19 @@ nav{
 }
 
 #nav_items{
-    padding: 0  10px;
+    font-family: "Poppins", sans-serif; 
+    padding: 0px 10px;
+font-weight: bold;
 }
 
-.heading_side{
-    font-size: 18px;
-    padding-left: 40px;
-    padding-top: 20px;
+#nav_items:hover{
+    font-family: "Poppins", sans-serif; 
+    font-weight: bold;
+    padding: 4px 6px;
+    font-size: 25px;
+    border-radius: 5px;
 }
+
 
 a:link{
     text-decoration: none;
@@ -37,6 +50,9 @@ a:visited{
     font-size: 28px;
     margin-top: -20px;
     margin-bottom: 60px;
+    font-family: "Poppins", sans-serif; 
+    font-weight: bold;
+
 }
 
 #rectRight{
@@ -78,3 +94,90 @@ a:visited{
     font-size: large;
     font-weight: bold;
 }
+
+.footer{
+    padding: 20px 5%;
+    background-color: #b8f8d47a;
+    background-image: linear-gradient(white,#b8f8d47a);
+    margin: -8px -8px;
+}
+
+.footerFlexItems{
+    display: flex;
+}
+
+#footerName{
+    font-weight: 700;
+    font-size: 18px;    
+    line-height: 24px;
+    color: #03276D;
+    margin-right:20%;
+    }
+
+
+    #footerElements{
+        font-weight:bold;
+        font-size: 16px;
+        margin: 0 40px;
+        line-height: 60px;
+        text-decoration: none;
+        }
+
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+/*----------------------popup-----------------------------*/
+
+#termsContent{
+    text-align: justify;
+    }
+    .popup-close{
+        width: 80%;
+        max-width: 600px;
+        margin: 20px auto;
+        position: absolute;
+        top: 10%;
+        left: 25%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        text-align: center;
+        visibility: hidden;
+    }
+
+    .popup-open{
+        width: 80%;
+        max-width: 700px;
+        margin: 20px auto;
+        position:absolute;
+        top: 70%;
+        left:20.5%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        text-align: center;
+        visibility: visible;
+        box-shadow: 2px 2px 50px black;
+    } 
+
+
+    #closePopup {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    
+    #closePopup:hover {
+        background-color: #555;
+    }
